@@ -49,3 +49,7 @@ That's the minimal version. Before running this for real: The details below appl
 
 **Patient Safe Agent Errors: Observability**
 - **Patient Safe Agent Errors:** Capture on the server (`POST /v1/errors/capture`); scrub PII before sending. Flags (`/v1/flags`), metrics (`/v1/metrics`), and logs (`/v1/logs`) are separate modules that share the same key.
+
+## Further reading
+
+- [Agent Error Events — Attach Release Metadata Without User PII for Safe Rollbacks](docs/agent-error-events-attach-release-metadata-withou-u7b7bn.md)
